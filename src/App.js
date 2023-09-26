@@ -3,11 +3,12 @@ import './App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar'
-
+import Navigation from './components/Navigation';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Navigation />
+     
       <h2>dscfs</h2>
       <Button variant="primary">Primary</Button>{' '}
       <Button variant="secondary">Secondary</Button>{' '}
@@ -18,6 +19,7 @@ function App() {
       <Button variant="light">Light</Button>{' '}
       <Button variant="dark">Dark</Button>
       <Button variant="link">Link</Button>
+      
     </div>
   );
 }

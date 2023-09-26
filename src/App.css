@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+a{
+  text-decoration: none;
+}
+
+.custom-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  /* Add other styling properties as needed */
+}
